@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>My First Website - ERION SEJDIU</title>
+</head>
+<body>
+    <header>
+        <h1>My First Website</h1>
+    </header>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>
+                Hi, I'm <strong>Erion Sejdiu</strong>. I'm a web developer with a passion for coding and a love for exploring the digital world.
+                <ul>
+                    <li><a href="https://www.facebook.com/" target="blank"><strong>Facebook</strong></a></li>
+
+                </ul>
+            </p>
+        </section>
+        <section>
+            <h2>My Goals</h2>
+            
+            <li>Fulfill my professional dream</li>
+            <li>Start (and finish) a big creative project</li>
+            <li>Enjoy life to the fullest</li>
+
+        </section>
+        <section>
+            <h2>My Top 3 Favorites Movies</h2>
+            <ol>
+                <li><em>Oppenheimer</em></li>
+                <li><em>Squid Game</em></li>
+                <li><em>The Nun<em></li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <p>Contact me at: <a href="https://mail.google.com/mail/u/0/">sejdiuerion23@gmail.com</a></p>
+    </footer>
+</body>
+</html>
+        
