@@ -5,7 +5,7 @@ body {
 	 background-image: url(images/background.jpg);
 }
 
-/* Navigation styles */
+
 nav{
 	list-style: none;
 	margin: 0;
@@ -40,7 +40,7 @@ nav:hover {
     width: 75%;
 }
 
-/* Here I aligned in the center the My projects title  */
+
 .header {
 	text-align: center;
 	color: white;
@@ -50,7 +50,7 @@ nav:hover {
     -webkit-text-stroke-color: rgb(1, 8, 24);
 }
 
-/* Here I styled the projects sections */
+
 .projects {
 	background-color: #66FCF1;
 	padding: 2%;
@@ -64,7 +64,7 @@ nav:hover {
     border: 2px solid rgb(255, 255, 255);
 }
 
-/* Here I styled my projects images*/
+
 img {
 	border: 1px solid black;
 	border-radius: 10px;
@@ -73,17 +73,7 @@ img {
 	max-width: 100%;
 }
 
-/* Return to homepage button */
-.return {
-	background-color: rgb(21, 144, 226);
-	padding: 5px;
-	border: 1px solid black;
-	border-radius: 15px;
-	text-decoration: none;
-	color: rgb(219, 235, 236);
-}
 
-/* Footer styles */
 footer {
 	background-color: #0B0C10;
 	text-align: center;
