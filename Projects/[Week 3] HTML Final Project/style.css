@@ -1,0 +1,177 @@
+body {
+    background-image: url('/Images/istockphoto-1160720443-612x612.jpg');
+    background-repeat: repeat;
+    cursor: url(/Images/tag.svg) 40 0, auto;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+  }
+  
+
+  h1{
+    color:black
+  }
+
+
+  .profile {
+    background-color: #d0fa14;
+    border: 3px solid transparent;
+    border-radius: 20px;
+    padding: 2%;
+    margin: 2% 10%;
+    color: black;
+}
+
+
+
+
+.profile:hover {
+    background-color: #d3d02b;
+    border: 3px solid white;
+}
+
+
+.profile-img {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 0 0 20px gray;
+  width: 30%;
+}
+
+
+.education {
+  background-color: #d0fa14;
+  border: 3px solid transparent;
+  border-radius: 20px;
+  padding: 2%;
+  margin: 2% 10%;
+  color: #0B0C10;
+}
+
+.education:hover {
+  background-color: #d3d02b;
+  border: 3px solid white;
+}
+
+.education>h2 {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.edu {
+  background-color: #0B0C10;
+  border: 1px solid black;
+  border-radius: 20px;
+  list-style-type: none;
+  padding: 2%;
+  color: #C5C6C7;
+}
+
+
+
+.skills {
+  background-color: #e1ff38;
+  border: 3px solid transparent;
+  border-radius: 20px;
+  margin: 2% 10%;
+  padding: 2%;
+  color: black;
+}
+
+.skills:hover{
+  background-color:#d2fc3c;
+  border: 3px solid white;
+}
+
+  table{
+    background-color: rgb(255, 166, 0);
+    font-size: 20px;
+    border-collapse: collapse;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+td{
+    color:white;
+}
+
+.lightgreen{
+    background-color:rgb(23, 112, 23);
+}
+
+.darkgreen{
+    background-color: rgb(202, 250, 130);
+}
+
+
+.myskills{
+  text-align: center;
+  font-size: 2em;
+}
+
+
+.projects {
+  background-color:#d0fa14;
+  border: 3px solid transparent;
+  border-radius: 20px;
+  margin: 2% 10%;
+  padding: 2%;
+  color: #0B0C10;
+
+}
+
+.projects:hover {
+  background-color:#d2fc3c;
+  border: 3px solid white;
+}
+
+.projects a {
+  text-decoration: none;
+  color: #0B0C10;
+  position: relative;
+  top: -5px;
+  background-color: rgb(58, 160, 255);
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.project_1,
+.project_2,
+.project_3 {
+    margin: 10px 0 0 0;
+}
+
+nav{
+
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-color:black#1F2833;
+    border-radius: 10px;
+    font-size: 1em;
+    text-decoration: none;
+
+
+}
+
+article {
+    display: block;
+}
+
+
+
+footer {
+  background-color: #1F2833;
+  text-align: center;
+  font-weight: bold;
+  color: #66FCF1;
+  margin: auto;
+  padding: 2%;
+  width: 75%;
+}
