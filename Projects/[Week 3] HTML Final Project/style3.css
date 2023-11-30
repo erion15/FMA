@@ -1,6 +1,8 @@
 body{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    background-image: url('/Images/istockphoto-1160720443-612x612.jpg');
+    background-repeat: repeat;
 }
 
 h1{
@@ -8,16 +10,33 @@ h1{
   }
 
 
-  .header {
-	text-align: center;
-	color: white;
-    margin-top: 0.5em;
-    font-size: 3em;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgb(1, 8, 24);
+  .contact{
+    background-color: #d0fa14;
+    border: 3px solid transparent;
+    border-radius: 20px;
+    padding: 2%;
+    margin: 2% 10%;
+    color: black;
+  }
+
+  .contact:hover {
+    background-color: #d3d02b;
+    border: 3px solid white;
 }
 
+.contact{
+  background-color: #d0fa14;
+  border: 3px solid transparent;
+  border-radius: 20px;
+  padding: 2%;
+  margin: 2% 10%;
+  color: black;
+}
 
+.contact:hover {
+  background-color: #d3d02b;
+  border: 3px solid white;
+}
 
 
   footer {
@@ -29,4 +48,25 @@ h1{
     padding: 2%;
     width: 75%;
   }
-  
+
+  ul{
+    display: inline;
+  }
+
+  li{
+    display: inline;
+  }
+
+
+  a{
+    text-decoration: none;
+    color:red;
+    background-color: blanchedalmond;
+    margin: 0px;
+    margin-left: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: red;
+  }

@@ -3,6 +3,9 @@ body {
 	cursor: url(images/code-tech-dev.svg), auto;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	 background-image: url(images/background.jpg);
+	 background-image: url('/Images/istockphoto-1160720443-612x612.jpg');
+	 background-repeat: repeat;
+	 text-align: center;
 }
 
 
@@ -22,7 +25,6 @@ nav{
 	display: inline-block;
 	padding: 10px 20px;
 	border: 1px solid rgb(247, 242, 242);
-	background-color: #1F2833;
 	border-radius: 10px;
 	font-size: 1em;
 	text-decoration: none;
@@ -31,9 +33,7 @@ nav{
 
 }
 
-nav:hover {
-	background-color: #45A29E;
-}
+
 
 
 .line{
@@ -82,3 +82,28 @@ footer {
 	padding: 1%;
 	margin: 0;
 }
+
+
+
+ul{
+    display: inline;
+  }
+
+  li{
+    display: inline;
+  }
+
+
+  a{
+    text-decoration: none;
+    color:red;
+	background-color: #0B0C10;
+	background-color: blanchedalmond;
+    margin: 0px;
+    margin-left: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: red;
+  }

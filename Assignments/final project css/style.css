@@ -1,0 +1,60 @@
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v140/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+  }
+  
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+  }
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+  body{
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr auto auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sidebar{
+    background-image: url('/Images/Black-in-nature-black-sky.jpg');
+    color:white;
+    background-repeat: repeat;
+    padding: 40px;
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    height: 100%;
+}
+
+@media screen and (min-width: 1024px){
+    body{
+        grid-template-rows: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+    }
+    .sidebar{
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    }
+}

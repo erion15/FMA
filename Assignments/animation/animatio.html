@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes open-curtain{
+            0%{
+                width: 50vw;
+                opacity: 1;
+                filter: blur(10px);
+            }
+
+            20%{
+                width: 25vw;
+                opacity: 0;
+            }
+
+            50%{
+                width: 10vw;
+            }
+
+            70%{
+                width: 30vw;
+            }
+
+            100%{
+                width: 0;
+            }
+        }
+        .curtain{
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            width: 50vw;
+            background-color: lightseagreen;
+            animation-name: open-curtain;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: 2;
+        }
+        #left-curtain{
+            left: 0;
+        }
+
+        #right-curtain{
+            right: 0;
+        }
+        img{
+            width: min(600px, 90%);
+        }
+    </style>
+</head>
+<body>
+    <div id="left-curtain" class="curtain"></div>
+    <div id="right-curtain" class="curtain"></div>
+    <h1>Im the title</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ducimus itaque doloremque, et eveniet quisquam praesentium provident natus commodi laborum, in rerum veritatis delectus. Ab id sed labore laudantium quod.</p>
+    <img src="/Images/THE ROCKK.jpg">
+</body>
+</body>
+</html>

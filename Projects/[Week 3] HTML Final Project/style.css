@@ -1,7 +1,7 @@
 body {
     background-image: url('/Images/istockphoto-1160720443-612x612.jpg');
     background-repeat: repeat;
-    cursor: url(/Images/tag.svg) 40 0, auto;
+    cursor: url() 40 0, auto;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 
@@ -147,18 +147,17 @@ td{
     margin: 10px 0 0 0;
 }
 
+
 nav{
 
     display: inline-block;
     padding: 10px 20px;
-    border: 1px solid rgb(255, 255, 255);
-    border-color:black#1F2833;
     border-radius: 10px;
     font-size: 1em;
     text-decoration: none;
-
-
 }
+
+
 
 article {
     display: block;
@@ -174,4 +173,28 @@ footer {
   margin: auto;
   padding: 2%;
   width: 75%;
+}
+
+
+ul{
+  display: inline;
+}
+
+li{
+  display: inline;
+}
+
+
+a{
+  text-decoration: none;
+  color:red;
+  background-color: #0B0C10;
+  background-color: blanchedalmond;
+  margin: 0px;
+  margin-left: auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  color: red;
 }
