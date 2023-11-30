@@ -39,7 +39,7 @@
 }
 
 .sidebar{
-    background-image: url('/Images/Black-in-nature-black-sky.jpg');
+    background-image: url(/Images/Black-in-nature-black-sky.jpg);
     color:white;
     background-repeat: repeat;
     padding: 40px;
