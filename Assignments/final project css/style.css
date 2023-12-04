@@ -20,41 +20,110 @@
     direction: ltr;
     -webkit-font-smoothing: antialiased;
   }
-
-@font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-}
-
   body{
+    background-color: rgb(226, 218, 218);
     margin: 0;
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto 1fr auto auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: auto 1fr auto;
+    gap: 1em;
 }
 
 .sidebar{
-    background-image: url(./Images/Black-in-nature-black-sky.jpg);
+    background-image: url(/Images/images/sidebar-1.jpg);
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: color;
     color:white;
     background-repeat: repeat;
     padding: 40px;
     grid-row: 2 / 3;
     grid-column: 1 / 2;
-    height: 100%;
+    height: 100vh;
 }
 
-@media screen and (min-width: 1024px){
-    body{
-        grid-template-rows: auto 1fr auto;
-        grid-template-columns: auto 1fr auto;
-    }
-    .sidebar{
-        grid-row: 2 / 3;
-        grid-column: 1 / 2;
-    }
+.main{
+    grid-column: 2 / 3;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 17px;
+    margin-top: 5px;
+}
+
+hr{
+    opacity: 0.3;
+}
+
+.user-image{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.pink{
+    background-color: rgb(216, 32, 62);
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 17px;
+    border: 3px solid transparent;
+    border-radius: 10px;
+}
+.list:hover {
+    background-color: rgb(182, 180, 180, 0.4);
+    border: 3px solid transparent;
+    border-radius: 10px;
+}
+
+.profile{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 17px;
+}
+
+.light{
+        background-color: white;
+        border: 3px solid transparent;
+        border-radius: 20px;
+        padding: 2%;
+        margin: 2% 10%;
+        color: black;
+}
+.header{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+
+.more{
+    background-color: white;
+    border-radius: 100px;
+    color: gray;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+input[type="text"]{
+    border: none;
+    border-bottom: 3x solid gray;
+    outline: none;
+    background-color: white;
 }
