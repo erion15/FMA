@@ -295,3 +295,8 @@ input:focus {
     display: flex;
     align-items: center;
 }
+
+.material{
+    width: 100%;
+    height: 65%;
+}
